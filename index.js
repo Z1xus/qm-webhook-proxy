@@ -14,6 +14,11 @@ const webhookURL = process.env.DISCORD_WEBHOOK_URL;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// redirect root to GitHub repository
+app.get('/', (_, res) => {
+  res.redirect('https://github.com/Z1xus/qm-webhook-proxy');
+});
+
 // endpoint to process webhook requests
 app.post('/api/webhook', async (req, res) => {
   const { logUrl, detailLog, authorName, timestamp } = req.body;
@@ -25,7 +30,7 @@ app.post('/api/webhook', async (req, res) => {
   // create embed
   const embeds = [{
     title: "New Log Received",
-    color: 5174599,
+    color: 16644863,
     timestamp: timestamp || new Date().toISOString(), // default to current time if timestamp is not provided
     fields: [
       {
