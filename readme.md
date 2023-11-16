@@ -1,6 +1,6 @@
 ## qm-webhook-proxy
 
-simple proxy for discord webhooks
+simple proxy for discord webhooks  
 made for [quality muncher](https://github.com/qm-org/qualitymuncher/) user logs
 
 ### Usage:
