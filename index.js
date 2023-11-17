@@ -34,7 +34,7 @@ app.post('/api/logs', async (req, res) => {
     timestamp: timestamp || new Date().toISOString(), // default to current time if timestamp is not provided
     fields: [
       {
-        name: "Detail",
+        name: "Details",
         value: detailLog || 'No details provided.'
       },
       {
