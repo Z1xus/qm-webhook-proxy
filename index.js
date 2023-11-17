@@ -70,7 +70,7 @@ app.post('/api/bugs', async (req, res) => {
 
   // create embed
   const embeds = [{
-    title: "Bug Report",
+    title: "Bug Report Received",
     color: 16007990,
     fields: [
       {
@@ -110,11 +110,11 @@ app.post('/api/suggestions', async (req, res) => {
 
   // create embed
   const embeds = [{
-    title: "Suggestion",
+    title: "Suggestion Received",
     color: 16771899,
     fields: [
       {
-        name: "Suggestion",
+        name: "Idea",
         value: mainsuggestion
       },
       {
