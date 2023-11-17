@@ -1,9 +1,9 @@
 ## qm-webhook-proxy
 
 simple proxy for discord webhooks  
-made for [quality muncher](https://github.com/qm-org/qualitymuncher/) user logs
+initially made for [quality muncher](https://github.com/qm-org/qualitymuncher/) user logs
 
-### Usage:
+### Deploy locally:
 1. Clone the repository
 ```bash
 git clone https://github.com/Z1xus/qm-webhook-proxy.git
