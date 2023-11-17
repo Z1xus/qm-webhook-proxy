@@ -30,7 +30,7 @@ app.post('/api/logs', async (req, res) => {
   // create embed
   const embeds = [{
     title: "Log Received",
-    color: 16644863,
+    color: 2201331,
     timestamp: timestamp || new Date().toISOString(), // default to current time if timestamp is not provided
     fields: [
       {
@@ -111,7 +111,7 @@ app.post('/api/suggestions', async (req, res) => {
   // create embed
   const embeds = [{
     title: "Suggestion",
-    color: 8421504,
+    color: 16771899,
     fields: [
       {
         name: "Suggestion",
